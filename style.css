@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue ;
+}
+.head{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.head h4{
+    text-align: center;
+    padding-top: 15px;
+}
+.content-1{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+.content-1 input{
+    height: 23px;
+    margin-top: 6px;
+    margin-bottom: 9px;
+}
+.content-1 button{
+    width: 70px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px;
+}
+.content-1 button:hover{
+    border: 1px solid rgb(199, 10, 10) ;
+}
+
+.container{
+    height: 550px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.box{
+    border-radius: 4px;
+    height: 520px;
+    width: 420px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+}
+.box h4{
+    margin-top: 14px;
+}
+.box p{
+    font-size: 12px;
+}
+.box1{
+    margin: 30px;
+    height: 250px;
+    background-image: url("1645709844284.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    /* height: 450px; */
+    margin: 30px;
+    height: 400px;
+    background-image: url("biker.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    margin: 30px;
+    height: 250px;
+    background-image: url("1590643852-shutterstock-1687380997.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-2{
+    text-align: center;
+    background-color: white;
+}
+.content-2 h6{
+    margin-bottom: 7px;
+}
+.content-2 input{
+    margin-bottom: 4px;
+    width: 274px;
+    padding: 3px;
+}
+.content-2 button{
+    width: 274px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+.foot{
+    height:95px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
